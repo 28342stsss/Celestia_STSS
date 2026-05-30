@@ -269,7 +269,7 @@ footer .f-meta{font-family:'Sarabun',sans-serif;font-weight:300;color:var(--ink-
 
 // ===== รายชื่อสมาชิกพรรค (แก้ชื่อ/เพิ่มรูปได้ที่นี่) =====
 // อยากใส่รูปจริง: เพิ่ม photo: "/รูป.jpg" (วางไฟล์ในโฟลเดอร์ public)
-const president = { pos: "ประธานพรรค", name: "ศิวกร รอดแจ่ม", nick: "วา", photo: "" };
+const president = { pos: "ประธานพรรค", name: "", nick: "", photo: "" };
 
 const members = [
   { pos: "รองประธาน (ม.ต้น)", name: "", nick: "", photo: "" },
@@ -283,7 +283,7 @@ const members = [
   { pos: "ฝ่ายอาคารสถานที่", name: "", nick: "", photo: "" },
   { pos: "ฝ่ายศิลป์", name: "", nick: "", photo: "" },
   { pos: "ฝ่ายประชาสัมพันธ์", name: "", nick: "", photo: "" },
-  { pos: "ฝ่ายโสตทัศนูปกรณ์", name: "", nick: "", photo: "" },
+  { pos: "ฝ่ายโสตทัศนูปกรณ์", name: "ศิวกร รอดแจ่ม", nick: "วา", photo: "" },
   { pos: "ฝ่ายงบประมาณ", name: "", nick: "", photo: "" },
   { pos: "ฝ่ายประเมินผล", name: "", nick: "", photo: "" },
 ];
